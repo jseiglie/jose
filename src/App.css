@@ -44,8 +44,11 @@ flex-direction: column;
   font-size: 30pt;
 }
 
+
+
 .carousel_img{
   max-width: 390px;
+  max-height: 459px;
 }
 
 .heartbeat {

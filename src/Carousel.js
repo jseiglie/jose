@@ -9,13 +9,13 @@ import Gift from "./Gift";
 
 const Carousel = () => {
   return (
-    <div className="d-flex container-fluid msg_holder p-0 bg-text1">
+    <div className="d-flex container-fluid msg_holder p-0 bg-text1 mx-auto">
       <div
-        id="carouselExampleInterval "
+        id="carouselExampleInterval mx-auto"
         className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-inner">
+        <div className="carousel-inner mx-auto">
           <div className="carousel-item text-center active" data-bs-interval="3000">
           <span className="text-white gx-0">
             <Mensajes />
@@ -24,28 +24,28 @@ const Carousel = () => {
           <div className="carousel-item text-center" data-bs-interval="2000">
             <img
               src={one}
-              className="d-block carousel_img"
+              className="d-block carousel_img mx-auto"
               alt="Jose y Marta"
             />
           </div>
           <div className="carousel-item text-center" data-bs-interval="2000">
             <img
               src={two}
-              className="d-block carousel_img "
+              className="d-block carousel_img mx-auto"
               alt="Jose y Marta"
             />
           </div>
           <div className="carousel-item text-center" data-bs-interval="2000">
             <img
               src={three}
-              className="d-block carousel_img"
+              className="d-block carousel_img mx-auto"
               alt="Jose y Marta"
             />
           </div>
           <div className="carousel-item text-center" data-bs-interval="2000">
             <img
               src={four}
-              className="d-block carousel_img"
+              className="d-block carousel_img mx-auto "
               alt="Jose y Marta"
             />
           </div>
